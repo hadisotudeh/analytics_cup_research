@@ -11,7 +11,7 @@ We propose a framework for **positional scouting using tracking data**, profilin
 ### Methods
 For each in-play tracking frame, we construct a **5×5 grid** around a team's outfield players, dividing width equally and length with weights `(0.5, 1, 1, 1, 0.5)` to account for positional outliers. Then, a player's **grid cell** represents instantaneous position relative to teammates. We calculate the **percentage of match time** each player occupies the 25 inferred positions and visualize this with **position maps**, where each cell reflects occupancy rate. 
 
-For example, Zac De Jesus's **position map** from February 1, 2025, is initially hard to interpret because his movements span the entire right flank. SkillCorner's pre-tagged labels classified him as RB, but separating the map into **in-possession** and **out-of-possession** phases clarifies the picture: he acted as an RM with the ball and an RB without it. Breaking the maps down further by SkillCorner's subphases shows he operated as an RWF in Finish. For the **position maps** of other players. See [position_maps/players.pdf](position_maps/players.pdf).
+For example, Zac De Jesus's **position map** from February 1, 2025, is initially hard to interpret because his movements span the entire right flank. SkillCorner's pre-tagged labels classified him as RB, but separating the map into **in-possession** and **out-of-possession** phases clarifies the picture: he acted as an RM with the ball and an RB without it. Breaking the maps down further by SkillCorner's subphases shows he operated as an RWF in Finish. For the **position maps** of other players, check [position_maps/players.pdf](position_maps/players.pdf).
 
 ![alt text](figs/example.jpg)
 
