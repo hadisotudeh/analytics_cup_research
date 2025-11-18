@@ -24,7 +24,7 @@ We then create a **Nearest Neighbor classifier** employing [Hellinger distance](
 ### Results
 Comparing our assigned labels to SkillCorner positions shows **71% agreement**, as shown in [position_maps/matching.pdf](position_maps/matching.pdf). Deviations highlight players whose on-pitch behavior differs from SkillCorner's pre-determined tags, revealing cases of possible versatility (see [position_maps/cases.pdf](position_maps/cases.pdf)).
 
-Finally, dimensionality reduction (MDS) projects position maps into 2D space, enabling visualization of spatial distributions and identification of unconventional positional profiles, see the interactive component in **submission.ipynb**.
+Finally, dimensionality reduction (MDS) projects position maps into 2D space, enabling visualization of spatial distributions and identification of unconventional positional profiles, see the interactive component in [submission.ipynb](submission.ipynb).
 
 ### Conclusion
 In this submission, we present a **positional scouting framework using tracking data**, moving beyond pre-tagged labels or event clustering to identify tactical positions. In the future, profiles can be refined by incorporating formation and game state (leading, trailing, or drawing) or by integrating players' spatial maps with on-ball actions (e.g., SkillCorner Dynamic Events) to identify **roles** (e.g., a poacher). In practical terms, this framework can support decision-making by enabling scouts and analysts to filter players.
