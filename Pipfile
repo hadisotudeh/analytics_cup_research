@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+notebook = "*"
+jupyter = "*"
+pypdf2 = "*"
+matplotlib = "*"
+seaborn = "*"
+tqdm = "*"
+pandas = "*"
+scikit-learn = "*"
+mplsoccer = "*"
+black = {extras = ["jupyter"], version = "*"}
+isort = "*"
+plotly = "*"
+mplcursors = "*"
+ipympl = "*"
+ipywidgets = "*"
+
+[dev-packages]
+ipython = "*"
+black = {extras = ["jupyter"], version = "*"}
+
+[requires]
+python_version = "3"
