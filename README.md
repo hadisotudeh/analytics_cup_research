@@ -15,7 +15,7 @@ For example, Zac De Jesus's **position map** from February 1, 2025, is initially
 
 ![alt text](figs/example.jpg)
 
-After excluding late substitutions, which may introduce noise, we aggregated position maps of 267 players per pre-tagged [SkillCorner label](https://skillcorner.crunch.help/en/working-with-the-data/physical-data-glossary-1-1) to create **position templates** below, where the number of players per label is shown above each map. Overall, the templates are visually appealing, but the RDM, DM, and LDM appear indistinguishable, which could be alleviated with access to more tracking data.
+After excluding late substitutions, which may introduce noise, we aggregated position maps of 267 players per pre-tagged [SkillCorner label](https://skillcorner.crunch.help/en/working-with-the-data/physical-data-glossary-1-1) to create **position templates** below, where the number of players per label is shown above each map. Overall, the templates are visually appealing, but the RDM, DM, and LDM appear indistinguishable, which could possibly be alleviated with access to more tracking data.
 
 ![alt text](figs/templates.jpg)
 
